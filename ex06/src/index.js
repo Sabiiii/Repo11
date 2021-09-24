@@ -3,7 +3,7 @@ function multiplyArrayFunction(myArray) {
 
    var sum = 0;
    var product = 1;
-    i;
+   i;
 
     for (i=0; i < myArray.length; i +=1) {
 
