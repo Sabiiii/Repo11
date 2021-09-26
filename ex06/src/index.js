@@ -35,13 +35,9 @@ return [product, sum];
 }
 
 
-
 console.log(multiplyArrayFunction(myArray));
 console.log(multiplyArrayFunction(myArray2));
 console.log(multiplyArrayFunction(myArray3));
-
-
-
 
 
 module.exports = multiplyArrayFunction;
