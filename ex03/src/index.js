@@ -4,21 +4,22 @@ function myArrayFunction(myPets) {
 
     var myNewPets = [...myPets];
     
-    myPetsArray = myNewPets[0];
 
-    myNewPets.push("Birds", "Fish");
-    firstPet.shift("Dog");
-    lastPet.pop("Fish");
+    myNewPets.push("Bird", "Fish");
+    firstPet = myNewPets.shift("Dog");
+    lastPet = myNewPets.pop("Fish");
 
-    myNewPets.unshift["Lion"];
+    myNewPets.unshift("Lion");
 
     return myNewPets;
 
-
-    
 }
 
 console.log(myArrayFunction(myPetsArray));
 module.exports = myArrayFunction;
+
+
+
+
 
 
