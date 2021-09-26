@@ -1,24 +1,32 @@
 
 var monitorsListArray = ["Apple", "Peach", "Berry"];
 
+var monitorList = [];
+
+
 function myMonitorsFunction(arr) {
 
     var newMonitorsList = [...arr];
 
-    var monitorList = [];
+    
+    var monitorList = [
+        ["Apple", 1],
+        ["Peach", 2],
+        ["Berry", 3]
+    ];
 
-
-    for (var i=0; i < monitorList.length; i++) {
-    for (var j=0; j < monitorList[i].length; j++) {
-        console.log(monitorList[i][j]);
-        ;
-    }
-
-    return monitorList;
-
-
+    return monitorList; 
 }
+
+
+
+
+
 
 console.log(myMonitorsFunction(monitorList));
 module.exports = myMonitorsFunction;
+
+
+
+
 
